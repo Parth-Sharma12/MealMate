@@ -1,13 +1,11 @@
-# Author: Dhaval Patel. Codebasics YouTube Channel
-
 import mysql.connector
 global cnx
 
 cnx = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="sharma",
-    database="pandeyji_eatery"
+    password="your password",
+    database="database name"
 )
 
 # Function to call the MySQL stored procedure and insert an order item
